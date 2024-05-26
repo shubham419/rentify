@@ -1,1 +1,1 @@
-export const SERVER = `https://rentify-vtyj.onrender.com/`;
+export const SERVER = `https://rentify-vtyj.onrender.com`;
