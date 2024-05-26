@@ -1,0 +1,51 @@
+.card {
+  /* width: -webkit-fill-available; */
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 15px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  && button {
+    width: fit-content;
+  }
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.verticalDivider {
+  margin: 0 10px;
+}
+
+.divider {
+  margin: 10px 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.interestedButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

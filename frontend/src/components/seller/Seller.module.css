@@ -1,0 +1,44 @@
+.formContainer {
+  width: 250px;
+  height: fit-content;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: sticky;
+  z-index: 1;
+  top: 100px;
+  flex: 0 0 auto;
+}
+
+.inputText {
+  margin-bottom: 10px !important;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.body {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+@media screen and (max-width: 768px) {
+  .body {
+    display: block;
+  }
+
+  .formContainer {
+    width: auto;
+    position: static;
+  }
+}
