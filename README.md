@@ -29,3 +29,8 @@ The backend of Rentify is built with Node.js and Express, providing robust APIs 
 - **mongoose**: For interacting with MongoDB.
 - **nodemon**: For automatically restarting the server during development.
 - **validator**: For data validation and sanitization.
+### Setup for backend
+create .env file and add following variable:
+JWT_KEY
+MONGO_URI
+CLIENT_ORIGIN
