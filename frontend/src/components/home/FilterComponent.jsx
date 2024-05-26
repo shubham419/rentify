@@ -89,9 +89,9 @@ function FilterComponent({ onFilterChange }) {
           <FormControlLabel
             control={
               <Checkbox
-                checked={bedrooms.includes("1")}
+                checked={bedrooms.includes("1 BHK")}
                 onChange={handleBedroomsChange}
-                value={1}
+                value={"1 BHK"}
                 color="primary"
               />
             }
@@ -100,9 +100,9 @@ function FilterComponent({ onFilterChange }) {
           <FormControlLabel
             control={
               <Checkbox
-                checked={bedrooms.includes("2")}
+                checked={bedrooms.includes("2 BHK")}
                 onChange={handleBedroomsChange}
-                value={2}
+                value={"2 BHK"}
                 color="primary"
               />
             }
@@ -111,9 +111,9 @@ function FilterComponent({ onFilterChange }) {
           <FormControlLabel
             control={
               <Checkbox
-                checked={bedrooms.includes("3")}
+                checked={bedrooms.includes("3 BHK")}
                 onChange={handleBedroomsChange}
-                value={3}
+                value={"3 BHK"}
                 color="primary"
               />
             }

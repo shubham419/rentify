@@ -27,7 +27,6 @@ function PropertyCard({
   firstName,
   userData,
 }) {
-  console.log("userData:-", userData);
   const [ownerDetailModal, setOwnerDetailModal] = useState(false);
   const navigate = useNavigate();
 

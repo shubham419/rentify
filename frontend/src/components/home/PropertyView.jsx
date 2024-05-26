@@ -4,10 +4,7 @@ import styles from "./Property.module.css";
 import LinearProgress from "@mui/material/LinearProgress";
 
 function PropertyView({ filters, allData = [], userData }) {
-  console.log("PropertyView ~ filters:-", filters);
-  console.log("PropertyView ~ allData:-", allData);
   const [filteredData, setFilteredData] = useState(allData);
-  console.log("PropertyView ~ filteredData:-", filteredData);
 
   useEffect(() => {
     let data = allData;
@@ -19,7 +16,7 @@ function PropertyView({ filters, allData = [], userData }) {
     }
     if (filters.bedrooms.length > 0) {
       data = data.filter((property) =>
-        filters.bedrooms.includes("" + property.bedrooms)
+        filters.bedrooms.includes("" + property.bhkType)
       );
     }
     if (filters.parking.length > 0) {

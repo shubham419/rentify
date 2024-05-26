@@ -16,7 +16,6 @@ mongoose
   .then(() => console.log("Connected to DB at", DB_URI))
   .catch((e) => console.log("Failed to connect to DB", e));
 
-
 app.use(express.json());
 
 app.use(cors({

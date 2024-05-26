@@ -1,1 +1,1 @@
-export const SERVER = `http://localhost:8082`;
+export const SERVER = `https://rentify-78fb.onrender.com`;
