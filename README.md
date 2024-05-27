@@ -2,6 +2,8 @@
 
 Rentify is a web application designed to streamline the property rental process for sellers and renters. Sellers can list their properties, and renters can browse through these listings to find their desired rental property. The platform provides an intuitive interface for managing property details and ensures a seamless user experience.
 
+frontend deployed link: https://rentify-git-main-shubham-thorats-projects.vercel.app/
+
 ## Frontend
 
 The frontend of Rentify is built with React, providing a dynamic and responsive user interface. Below are the key libraries and frameworks used:
