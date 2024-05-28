@@ -53,7 +53,7 @@ function PropertyView({ filters, allData = [], userData }) {
     }
     if (filters.bedrooms.length > 0) {
       data = data.filter((property) =>
-        filters.bedrooms.includes("" + property.bedrooms)
+        filters.bedrooms.includes("" + property.bhkType)
       );
     }
     if (filters.parking.length > 0) {
