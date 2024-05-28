@@ -55,12 +55,12 @@ function FilterComponent({ onFilterChange }) {
     setFurnished("");
     setBedrooms([]);
     setParking([]);
-    setRentRange([0, 50000]);
+    setRentRange([0, 500000]);
     onFilterChange({
       furnished: "",
       bedrooms: [],
       parking: [],
-      rentRange: [0, 5000],
+      rentRange: [0, 500000],
     });
   };
 

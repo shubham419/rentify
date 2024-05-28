@@ -1,6 +1,7 @@
 .card {
   /* width: -webkit-fill-available; */
   max-width: 600px;
+  max-height: 300px;
   margin: 20px auto;
   border-radius: 15px !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
@@ -40,6 +41,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  flex-grow: 1;
   justify-content: center;
 }
 
